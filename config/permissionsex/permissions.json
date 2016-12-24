@@ -1,0 +1,459 @@
+{
+    "subjects": {
+        "default": {
+            "default": [
+                {
+                    "contexts": {
+                        "localip": "127.0.0.1"
+                    },
+                    "permissions-default": 1
+                }
+            ],
+            "user": [
+                {
+                    "parents": [
+                        "group:Guest"
+                    ]
+                }
+            ]
+        },
+        "group": {
+            "Admin": [
+                {
+                    "permissions-default": 1,
+                    "options": {
+                        "prefix": "&4[Admin]&f"
+                    }
+                }
+            ],
+            "Guest": [
+                {
+                    "permissions-default": 0,
+                    "permissions": {
+                        "nucleus.back.targets.teleport": 1,
+                        "nucleus.motd.base": 1,
+                        "nucleus.mail.base": 1,
+                        "nucleus.message.selectors": 1,
+                        "nucleus.realname.base": 1,
+                        "nucleus.message.base": 1,
+                        "nucleus.suicide.base": 1,
+                        "nucleus.home.list.base": 1,
+                        "nucleus.mail.send.base": 1,
+                        "nucleus.home.base": 1,
+                        "totaleconomy.command.pay": 1,
+                        "nucleus.teleport.tptoggle.base": 1,
+                        "nucleus.teleport.tpaccept.base": 1,
+                        "nucleus.afk.base": 1,
+                        "totaleconomy.command.balance": 1,
+                        "nucleus.warp.list.base": 1,
+                        "nucleus.firstspawn.base": 1,
+                        "nucleus.teleport.tpa.selectors": 1,
+                        "nucleus.spawn.base": 1,
+                        "nucleus.teleport.tpdeny.base": 1,
+                        "nucleus.ignore.base": 1,
+                        "nucleus.back.targets.death": 1,
+                        "nucleus.back.base": 1,
+                        "nucleus.back.targets.portal": 1,
+                        "nucleus.info.base": 1,
+                        "nucleus.motd.login": 1,
+                        "nucleus.time.base": 1,
+                        "totaleconomy.command.balancetop": 1,
+                        "nucleus.itembuy.base": 1,
+                        "nucleus.itemsell.base": 1,
+                        "nucleus.home.set.base": 1,
+                        "nucleus.list.base": 1,
+                        "nucleus.rules.base": 1,
+                        "nucleus.teleport.tpa.base": 1,
+                        "nucleus.warp.base": 1,
+                        "nucleus.helpop.base": 1
+                    },
+                    "options": {
+                        "rank": "400",
+                        "home-count": "2",
+                        "prefix": "&7[Player]&f"
+                    }
+                }
+            ],
+            "Survivor": [
+                {
+                    "parents": [
+                        "group:Guest"
+                    ],
+                    "options": {
+                        "rank": "300",
+                        "home-count": "3",
+                        "prefix": "&3[Survivor]&f"
+                    }
+                }
+            ],
+            "Settler": [
+                {
+                    "parents": [
+                        "group:Survivor"
+                    ],
+                    "options": {
+                        "rank": "200",
+                        "home-count": "4",
+                        "prefix": "&A[Settler]&f"
+                    }
+                }
+            ],
+            "Adventurer": [
+                {
+                    "parents": [
+                        "group:Settler"
+                    ],
+                    "options": {
+                        "rank": "100",
+                        "home-count": "5",
+                        "prefix": "&2[Adventurer]&f"
+                    }
+                }
+            ],
+            "Mod": [
+                {
+                    "parents": [
+                        "group:Adventurer"
+                    ],
+                    "permissions": {
+                        "nucleus.staffchat.base": 1,
+                        "nucleus.warn.notify": 1,
+                        "nucleus.connection.joinfullserver": 1,
+                        "nucleus.unban.base": 1,
+                        "nucleus.note.notify": 1,
+                        "nucleus.tempban.exempt.target": 1,
+                        "nucleus.ban.base": 1,
+                        "nucleus.checknotes.base": 1,
+                        "nucleus.tempban.exempt.length": 1,
+                        "nucleus.jail.notify": 1,
+                        "nucleus.jail.offline": 1,
+                        "nucleus.teleport.teleport.base": 1,
+                        "nucleus.teleport.tpahere.selectors": 1,
+                        "nucleus.helpop.receive": 1,
+                        "nucleus.kick.notify": 1,
+                        "nucleus.jail.info.base": 1,
+                        "nucleus.tempban.base": 1,
+                        "nucleus.checkban.base": 1,
+                        "nucleus.socialspy.base": 1,
+                        "nucleus.checkmute.base": 1,
+                        "nucleus.warn.exempt.target": 1,
+                        "nucleus.ban.exempt.target": 1,
+                        "nucleus.mute.exempt.target": 1,
+                        "nucleus.mute.notify": 1,
+                        "nucleus.note.base": 1,
+                        "nucleus.jail.selectors": 1,
+                        "nucleus.ignore.exempt.chat": 1,
+                        "nucleus.jail.checkjail.base": 1,
+                        "nucleus.warn.base": 1,
+                        "nucleus.ban.offline": 1,
+                        "nucleus.note.showonlogin": 1,
+                        "nucleus.notify": 1,
+                        "nucleus.teleport.tpahere.base": 1,
+                        "nucleus.home.other.base": 1,
+                        "nucleus.jail.base": 1,
+                        "nucleus.kick.base": 1,
+                        "nucleus.kick.exempt.target": 1,
+                        "nucleus.tempban.offline": 1,
+                        "nucleus.mute.base": 1,
+                        "nucleus.kickall.base": 1,
+                        "nucleus.checkwarnings.base": 1,
+                        "nucleus.warn.exempt.length": 1
+                    },
+                    "options": {
+                        "prefix": "&5[Mod]&f"
+                    }
+                }
+            ],
+            "survivor": [
+                {
+                    "permissions": {
+                        "essentials.back": 1
+                    }
+                }
+            ]
+        },
+        "user": {
+            "9ee73fa3-fdd5-4283-a654-cb29fc60533d": [
+                {
+                    "parents": [
+                        "group:Admin"
+                    ],
+                    "options": {
+                        "name": "rugbyman717"
+                    }
+                }
+            ],
+            "21590215-ffc8-4a4a-bc1d-75d274d8cc5f": [
+                {
+                    "parents": [
+                        "group:Admin"
+                    ],
+                    "options": {
+                        "name": "Regretsblade"
+                    }
+                }
+            ],
+            "f0ac22d4-f354-4d5b-82a9-12bff6b16372": [
+                {
+                    "parents": [
+                        "group:Admin",
+                        "group:survivor"
+                    ],
+                    "options": {
+                        "name": "Wisthy"
+                    }
+                }
+            ],
+            "08a9e4a2-694a-4a59-8ebd-50082fc0b47f": [
+                {
+                    "parents": [
+                        "group:Admin",
+                        "group:survivor"
+                    ],
+                    "options": {
+                        "name": "crachh"
+                    }
+                }
+            ],
+            "7a354062-9729-4282-9741-0d7d73a0d746": [
+                {
+                    "parents": [
+                        "group:survivor"
+                    ],
+                    "options": {
+                        "name": "fullguris"
+                    }
+                }
+            ],
+            "8dd87011-59e9-420f-afee-c5fae8351daf": [
+                {
+                    "parents": [
+                        "group:survivor"
+                    ],
+                    "options": {
+                        "name": "Magni_Deathatch"
+                    }
+                }
+            ],
+            "657e6533-f240-4451-83bf-1e3ec594fac5": [
+                {
+                    "parents": [
+                        "group:survivor"
+                    ],
+                    "options": {
+                        "name": "_fg"
+                    },
+                    "permissions-default": 1
+                }
+            ],
+            "3b5db5e8-e714-465e-b69d-c7fc6ba9acd9": [
+                {
+                    "parents": [
+                        "group:survivor"
+                    ],
+                    "options": {
+                        "name": "Coolgeek789"
+                    },
+                    "permissions": {
+                        "essentials.back": 1
+                    }
+                }
+            ],
+            "3e62f5be-5da6-47a2-97fc-bf4b54d7828b": [
+                {
+                    "parents": [
+                        "group:survivor"
+                    ],
+                    "options": {
+                        "name": "creeperslayer463"
+                    }
+                }
+            ],
+            "b05b11f8-15f1-4cf3-98b9-1d468fefa51a": [
+                {
+                    "parents": [
+                        "group:survivor"
+                    ],
+                    "options": {
+                        "name": "SNAFUA"
+                    }
+                }
+            ],
+            "22785e20-1dc4-48bd-87a2-516d40bf53c9": [
+                {
+                    "parents": [
+                        "group:survivor"
+                    ],
+                    "options": {
+                        "name": "trains4000"
+                    }
+                }
+            ],
+            "94393e91-8c86-4281-865e-06c3147182a1": [
+                {
+                    "parents": [
+                        "group:survivor"
+                    ],
+                    "options": {
+                        "name": "Eldoras"
+                    }
+                }
+            ],
+            "91aea6a4-a88e-4c59-9db3-f71075c71927": [
+                {
+                    "parents": [
+                        "group:survivor"
+                    ],
+                    "options": {
+                        "name": "MonkeyFunch"
+                    }
+                }
+            ],
+            "cd254a34-ab52-4e6e-a2e4-b2b6234450d6": [
+                {
+                    "parents": [
+                        "group:survivor"
+                    ],
+                    "options": {
+                        "name": "Ermog"
+                    }
+                }
+            ],
+            "e9354a40-b5c1-4079-9171-6dd8a3c725e9": [
+                {
+                    "parents": [
+                        "group:survivor"
+                    ],
+                    "options": {
+                        "name": "Shiryk"
+                    }
+                }
+            ],
+            "9a8d460f-c4d7-4ca8-9b5d-41a7218da596": [
+                {
+                    "parents": [
+                        "group:survivor"
+                    ],
+                    "options": {
+                        "name": "Hanny8017"
+                    }
+                }
+            ],
+            "aafe3574-c3d5-4d6d-baf1-f485b1959cd4": [
+                {
+                    "parents": [
+                        "group:Admin",
+                        "group:survivor"
+                    ],
+                    "options": {
+                        "name": "Pediigru"
+                    }
+                }
+            ],
+            "8e381eb2-a356-46f2-b17e-f00f935b5323": [
+                {
+                    "parents": [
+                        "group:survivor"
+                    ],
+                    "options": {
+                        "name": "ruphskunk"
+                    }
+                }
+            ],
+            "540e4b4b-207b-4de8-9aba-97b4730a4a22": [
+                {
+                    "parents": [
+                        "group:survivor"
+                    ],
+                    "options": {
+                        "name": "MissLid"
+                    }
+                }
+            ],
+            "227a74d9-b3f9-4b34-a720-050b0584ca1b": [
+                {
+                    "parents": [
+                        "group:survivor"
+                    ],
+                    "options": {
+                        "name": "SaladSteak"
+                    }
+                }
+            ],
+            "a9d50c89-b7ff-4ebe-a3e8-9ff285bc80b1": [
+                {
+                    "parents": [
+                        "group:survivor"
+                    ],
+                    "options": {
+                        "name": "FireRack101"
+                    }
+                }
+            ],
+            "6d2fcbab-8051-4dc9-bd98-f97222c6d94c": [
+                {
+                    "parents": [
+                        "group:survivor"
+                    ],
+                    "options": {
+                        "name": "SENsationals02"
+                    }
+                }
+            ],
+            "87318792-aee5-499c-a18f-8c06884eb987": [
+                {
+                    "parents": [
+                        "group:survivor"
+                    ],
+                    "options": {
+                        "name": "WatcherShadows"
+                    }
+                }
+            ]
+        },
+        "rugbyman717": {
+            "default": [
+                {
+                    "parents": [
+                        "group:Guest"
+                    ]
+                }
+            ],
+            "Mod": [
+                {
+                    "parents": [
+                        "group:Guest"
+                    ]
+                }
+            ]
+        },
+        "Admin": {
+            "Regretsblade": [
+                {
+                    "parents": [
+                        "group:Guest"
+                    ]
+                }
+            ]
+        },
+        "regretsblade": {
+            "Admin": [
+                {
+                    "parents": [
+                        "group:Guest"
+                    ]
+                }
+            ]
+        }
+    },
+    "schema-version": 4,
+    "rank-ladders": {
+        "default": [
+            "group:Guest",
+            "group:Survivor",
+            "group:Settler",
+            "group:Adventurer"
+        ]
+    },
+    "context-inheritance": {}
+}

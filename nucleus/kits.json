@@ -1,0 +1,403 @@
+{
+  "kits": {
+    "<botania>": {
+      "cost": 0.0,
+      "stacks": [
+        {
+          "ContentVersion": 1,
+          "ItemType": "botania:lexicon",
+          "Count": 1,
+          "UnsafeDamage": 0
+        },
+        {
+          "ContentVersion": 1,
+          "ItemType": "botania:petal",
+          "Count": 64,
+          "UnsafeDamage": 0
+        },
+        {
+          "ContentVersion": 1,
+          "ItemType": "botania:petal",
+          "Count": 64,
+          "UnsafeDamage": 1
+        },
+        {
+          "ContentVersion": 1,
+          "ItemType": "botania:petal",
+          "Count": 64,
+          "UnsafeDamage": 2
+        },
+        {
+          "ContentVersion": 1,
+          "ItemType": "botania:petal",
+          "Count": 64,
+          "UnsafeDamage": 3
+        },
+        {
+          "ContentVersion": 1,
+          "ItemType": "botania:petal",
+          "Count": 64,
+          "UnsafeDamage": 4
+        },
+        {
+          "ContentVersion": 1,
+          "ItemType": "botania:petal",
+          "Count": 64,
+          "UnsafeDamage": 5
+        },
+        {
+          "ContentVersion": 1,
+          "ItemType": "botania:petal",
+          "Count": 64,
+          "UnsafeDamage": 6
+        },
+        {
+          "ContentVersion": 1,
+          "ItemType": "botania:petal",
+          "Count": 64,
+          "UnsafeDamage": 7
+        },
+        {
+          "ContentVersion": 1,
+          "ItemType": "botania:petal",
+          "Count": 64,
+          "UnsafeDamage": 11
+        },
+        {
+          "ContentVersion": 1,
+          "ItemType": "botania:petal",
+          "Count": 64,
+          "UnsafeDamage": 10
+        },
+        {
+          "ContentVersion": 1,
+          "ItemType": "botania:petal",
+          "Count": 64,
+          "UnsafeDamage": 9
+        },
+        {
+          "ContentVersion": 1,
+          "ItemType": "botania:petal",
+          "Count": 64,
+          "UnsafeDamage": 8
+        },
+        {
+          "ContentVersion": 1,
+          "ItemType": "botania:petal",
+          "Count": 64,
+          "UnsafeDamage": 12
+        },
+        {
+          "ContentVersion": 1,
+          "ItemType": "botania:petal",
+          "Count": 64,
+          "UnsafeDamage": 13
+        },
+        {
+          "ContentVersion": 1,
+          "ItemType": "botania:petal",
+          "Count": 64,
+          "UnsafeDamage": 14
+        },
+        {
+          "ContentVersion": 1,
+          "ItemType": "botania:pool",
+          "Count": 1,
+          "UnsafeDamage": 0
+        },
+        {
+          "ContentVersion": 1,
+          "ItemType": "botania:manaTablet",
+          "Count": 1,
+          "UnsafeDamage": 0
+        },
+        {
+          "ContentVersion": 1,
+          "ItemType": "botania:livingrock",
+          "Count": 64,
+          "UnsafeDamage": 0
+        },
+        {
+          "ContentVersion": 1,
+          "ItemType": "botania:livingwood",
+          "Count": 64,
+          "UnsafeDamage": 0
+        },
+        {
+          "ContentVersion": 1,
+          "ItemType": "botania:blackLotus",
+          "Count": 8,
+          "UnsafeDamage": 1
+        },
+        {
+          "ContentVersion": 1,
+          "ItemType": "botania:manaResource",
+          "Count": 16,
+          "UnsafeDamage": 0
+        },
+        {
+          "ContentVersion": 1,
+          "ItemType": "botania:manaResource",
+          "Count": 16,
+          "UnsafeDamage": 1
+        },
+        {
+          "ContentVersion": 1,
+          "ItemType": "botania:manaResource",
+          "Count": 8,
+          "UnsafeDamage": 2
+        }
+      ],
+      "interval": 0,
+      "oneTime": false
+    },
+    "<Ender>": {
+      "cost": 0.0,
+      "stacks": [
+        {
+          "ContentVersion": 1,
+          "ItemType": "enderio:blockStirlingGenerator",
+          "Count": 1,
+          "UnsafeDamage": 0
+        },
+        {
+          "ContentVersion": 1,
+          "ItemType": "enderio:blockSagMill",
+          "Count": 1,
+          "UnsafeDamage": 0
+        },
+        {
+          "ContentVersion": 1,
+          "ItemType": "enderio:blockAlloySmelter",
+          "Count": 1,
+          "UnsafeDamage": 0
+        },
+        {
+          "ContentVersion": 1,
+          "ItemType": "enderio:blockCapBank",
+          "Count": 4,
+          "UnsafeDamage": 2
+        },
+        {
+          "ContentVersion": 1,
+          "ItemType": "enderio:itemAlloy",
+          "Count": 64,
+          "UnsafeDamage": 0
+        },
+        {
+          "ContentVersion": 1,
+          "ItemType": "enderio:itemAlloy",
+          "Count": 16,
+          "UnsafeDamage": 1
+        },
+        {
+          "ContentVersion": 1,
+          "ItemType": "enderio:itemAlloy",
+          "Count": 16,
+          "UnsafeDamage": 2
+        },
+        {
+          "ContentVersion": 1,
+          "ItemType": "enderio:itemAlloy",
+          "Count": 16,
+          "UnsafeDamage": 3
+        },
+        {
+          "ContentVersion": 1,
+          "ItemType": "enderio:itemAlloy",
+          "Count": 16,
+          "UnsafeDamage": 4
+        },
+        {
+          "ContentVersion": 1,
+          "ItemType": "enderio:itemAlloy",
+          "Count": 16,
+          "UnsafeDamage": 5
+        },
+        {
+          "ContentVersion": 1,
+          "ItemType": "enderio:itemAlloy",
+          "Count": 16,
+          "UnsafeDamage": 6
+        },
+        {
+          "ContentVersion": 1,
+          "ItemType": "enderio:itemAlloy",
+          "Count": 16,
+          "UnsafeDamage": 7
+        },
+        {
+          "ContentVersion": 1,
+          "ItemType": "enderio:itemBasicCapacitor",
+          "Count": 4,
+          "UnsafeDamage": 0
+        },
+        {
+          "ContentVersion": 1,
+          "ItemType": "enderio:itemBasicCapacitor",
+          "Count": 4,
+          "UnsafeDamage": 1
+        },
+        {
+          "ContentVersion": 1,
+          "ItemType": "enderio:itemPowerConduit",
+          "Count": 64,
+          "UnsafeDamage": 0
+        }
+      ],
+      "interval": 0,
+      "oneTime": false
+    },
+    "<blood>": {
+      "cost": 0.0,
+      "stacks": [
+        {
+          "ContentVersion": 1,
+          "ItemType": "bloodmagic:BlockAltar",
+          "Count": 1,
+          "UnsafeDamage": 0
+        },
+        {
+          "ContentVersion": 1,
+          "ItemType": "bloodmagic:ItemPackSacrifice",
+          "Count": 1,
+          "UnsafeDamage": 0
+        },
+        {
+          "ContentVersion": 1,
+          "ItemType": "bloodmagic:ItemPackSelfSacrifice",
+          "Count": 1,
+          "UnsafeDamage": 0
+        },
+        {
+          "ContentVersion": 1,
+          "ItemType": "bloodmagic:BlockBloodRune",
+          "Count": 8,
+          "UnsafeDamage": 1
+        },
+        {
+          "ContentVersion": 1,
+          "ItemType": "bloodmagic:BlockBloodRune",
+          "Count": 8,
+          "UnsafeDamage": 3
+        },
+        {
+          "ContentVersion": 1,
+          "ItemType": "bloodmagic:BlockBloodRune",
+          "Count": 8,
+          "UnsafeDamage": 4
+        },
+        {
+          "ContentVersion": 1,
+          "ItemType": "bloodmagic:BlockBloodRune",
+          "Count": 4,
+          "UnsafeDamage": 6
+        },
+        {
+          "ContentVersion": 1,
+          "ItemType": "bloodmagic:ItemBloodOrb",
+          "Count": 1,
+          "UnsafeDamage": 2
+        },
+        {
+          "ContentVersion": 1,
+          "ItemType": "bloodmagic:BlockSoulForge",
+          "Count": 1,
+          "UnsafeDamage": 0
+        },
+        {
+          "ContentVersion": 1,
+          "ItemType": "bloodmagic:BlockIncenseAltar",
+          "Count": 1,
+          "UnsafeDamage": 0
+        }
+      ],
+      "interval": 0,
+      "oneTime": false
+    },
+    "<Refined>": {
+      "cost": 0.0,
+      "stacks": [
+        {
+          "ContentVersion": 1,
+          "ItemType": "refinedstorage:crafting_monitor",
+          "Count": 1,
+          "UnsafeDamage": 0
+        },
+        {
+          "ContentVersion": 1,
+          "ItemType": "refinedstorage:controller",
+          "Count": 1,
+          "UnsafeDamage": 0
+        },
+        {
+          "ContentVersion": 1,
+          "ItemType": "refinedstorage:disk_drive",
+          "Count": 1,
+          "UnsafeDamage": 0
+        },
+        {
+          "ContentVersion": 1,
+          "ItemType": "refinedstorage:storage_disk",
+          "Count": 1,
+          "UnsafeDamage": 1,
+          "UnsafeData": {
+            "Items": [],
+            "Stored": 0,
+            "Protocol": 1
+          }
+        },
+        {
+          "ContentVersion": 1,
+          "ItemType": "refinedstorage:storage_disk",
+          "Count": 1,
+          "UnsafeDamage": 1,
+          "UnsafeData": {
+            "Items": [],
+            "Stored": 0,
+            "Protocol": 1
+          }
+        },
+        {
+          "ContentVersion": 1,
+          "ItemType": "refinedstorage:cable",
+          "Count": 64,
+          "UnsafeDamage": 0
+        },
+        {
+          "ContentVersion": 1,
+          "ItemType": "refinedstorage:importer",
+          "Count": 64,
+          "UnsafeDamage": 0
+        },
+        {
+          "ContentVersion": 1,
+          "ItemType": "refinedstorage:exporter",
+          "Count": 64,
+          "UnsafeDamage": 0
+        },
+        {
+          "ContentVersion": 1,
+          "ItemType": "refinedstorage:quartz_enriched_iron",
+          "Count": 64,
+          "UnsafeDamage": 0
+        },
+        {
+          "ContentVersion": 1,
+          "ItemType": "refinedstorage:silicon",
+          "Count": 64,
+          "UnsafeDamage": 0
+        },
+        {
+          "ContentVersion": 1,
+          "ItemType": "refinedstorage:solderer",
+          "Count": 1,
+          "UnsafeDamage": 0
+        }
+      ],
+      "interval": 0,
+      "oneTime": false
+    }
+  },
+  "firstKit": []
+}
