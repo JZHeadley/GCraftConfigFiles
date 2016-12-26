@@ -1,1 +1,4 @@
 &eWelcome to the server!
+Any issues you have or features you want should be 
+reported or requested at
+https://github.com/JZHeadley/GCraftConfigFiles/issues 

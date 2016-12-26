@@ -18,6 +18,12 @@
       "meta": 0,
       "focusColor": "light_gray",
       "weight": 4
+    },
+	{
+      "id": "quantumflux:graphiteOre",
+      "meta": 0,
+      "focusColor": "gray",
+      "weight": 10
     }
   ],
   "oreDict": [
