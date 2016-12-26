@@ -1,5 +1,3 @@
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
 # Name: FTB Presents HermitPack
 # Author: Feed The Beast
 
@@ -29,25 +27,6 @@ recipes.addShaped(<torcherino:BlockTorcherino>, [[<minecraft:diamond_block>, <mi
 mods.chisel.Groups.addVariation("blockUranium", <bigreactors:blockMetals>);
 
 
-## GCraftMinecraft's additions...
-
-// Have TechReborn and ImmersiveEngineering bauxite ore be inter-exchangeable.
-<ore:oreAluminum>.add(<techreborn:techreborn.ore:4>);
-<ore:oreBauxite>.add(<immersiveengineering:ore:1>);
-
-// Techreborn's dustBauxite is not used in any recipe, I guess that is a mistake.
-// Adjust the ore dictionary so it can be used to craft ingotAluminium.
-<ore:dustAluminum>.remove(<techreborn:dust:1>);
-<ore:dustAluminum>.add(<techreborn:dust:5>);
-
-// You cannot create aluminium ingot straight from the ore.
-furnace.remove(<ore:ingotAluminum>);
-mods.tconstruct.Smeltery.removeMelting(<techreborn:techreborn.ore:4>);
-
-print('Initialization for `FTB Presents HermitPack.zs` Complete');
-=======
-=======
->>>>>>> Stashed changes
 # Name: FTB Presents HermitPack
 
 # Author: Feed The Beast
@@ -106,9 +85,19 @@ val blockUranium = <ore:blockUranium>;
 blockUranium.add(<bigreactors:blockMetals>);
 
 
-print('Initialization for `FTB Presents HermitPack.zs` Complete');
+## GCraftMinecraft's additions...
 
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+// Have TechReborn and ImmersiveEngineering bauxite ore be inter-exchangeable.
+<ore:oreAluminum>.add(<techreborn:techreborn.ore:4>);
+<ore:oreBauxite>.add(<immersiveengineering:ore:1>);
+
+// Techreborn's dustBauxite is not used in any recipe, I guess that is a mistake.
+// Adjust the ore dictionary so it can be used to craft ingotAluminium.
+<ore:dustAluminum>.remove(<techreborn:dust:1>);
+<ore:dustAluminum>.add(<techreborn:dust:5>);
+
+// You cannot create aluminium ingot straight from the ore.
+furnace.remove(<ore:ingotAluminum>);
+mods.tconstruct.Smeltery.removeMelting(<techreborn:techreborn.ore:4>);
+
+print('Initialization for `FTB Presents HermitPack.zs` Complete');
