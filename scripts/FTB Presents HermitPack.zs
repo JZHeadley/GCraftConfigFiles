@@ -1,4 +1,5 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 # Name: FTB Presents HermitPack
 # Author: Feed The Beast
 
@@ -45,6 +46,8 @@ mods.tconstruct.Smeltery.removeMelting(<techreborn:techreborn.ore:4>);
 
 print('Initialization for `FTB Presents HermitPack.zs` Complete');
 =======
+=======
+>>>>>>> Stashed changes
 # Name: FTB Presents HermitPack
 
 # Author: Feed The Beast
@@ -105,4 +108,7 @@ blockUranium.add(<bigreactors:blockMetals>);
 
 print('Initialization for `FTB Presents HermitPack.zs` Complete');
 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
