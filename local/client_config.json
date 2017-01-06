@@ -1,7 +1,7 @@
 {
   "ftbu": {
-    "journeymap_overlay": true,
     "render_badges": true,
+    "journeymap_overlay": true,
     "enable_chunk_selector_depth": false,
     "light_value_texture_x": false
   },

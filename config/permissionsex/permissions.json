@@ -409,6 +409,23 @@
                         "name": "WatcherShadows"
                     }
                 }
+            ],
+            "9bf720fd-ed4d-4782-b348-914fe8bb3aa5": [
+                {
+                    "parents": [
+                        "group:survivor"
+                    ]
+                }
+            ],
+            "b26d9ae2-840c-414f-b90d-1a9cfce72a3f": [
+                {
+                    "parents": [
+                        "group:survivor"
+                    ],
+                    "options": {
+                        "name": "QuyNguyen2013"
+                    }
+                }
             ]
         },
         "rugbyman717": {

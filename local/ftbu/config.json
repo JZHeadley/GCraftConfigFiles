@@ -25,6 +25,19 @@
     "safe_spawn": false,
     "spawn_area_in_sp": false
   },
+  "commands": {
+    "chunks": true,
+    "trash_can": true,
+    "js": true,
+    "warp": true,
+    "tpl": true,
+    "inv": true,
+    "back": true,
+    "server_info": true,
+    "spawn": true,
+    "home": true,
+    "kickme": true
+  },
   "general": {
     "auto_restart": false,
     "chat": {
@@ -47,19 +60,6 @@
       "enabled": false
     }
   },
-  "commands": {
-    "chunks": true,
-    "trash_can": true,
-    "js": true,
-    "warp": true,
-    "tpl": true,
-    "inv": true,
-    "back": true,
-    "server_info": true,
-    "spawn": true,
-    "home": true,
-    "kickme": true
-  },
   "webapi": {
     "port": 4509,
     "output_map": false,
@@ -68,7 +68,7 @@
   "login": {
     "motd": [],
     "enable_motd": true,
-    "enable_starting_items": true,
-    "starting_items": []
+    "starting_items": [],
+    "enable_starting_items": true
   }
 }
