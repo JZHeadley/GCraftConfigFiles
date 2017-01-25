@@ -1,8 +1,6 @@
 {
-  "command": {
-    "use_ftb_prefix": true
-  },
   "teams": {
+    "mirror_ftb_commands": true,
     "autocreate_on_login": true
   }
 }

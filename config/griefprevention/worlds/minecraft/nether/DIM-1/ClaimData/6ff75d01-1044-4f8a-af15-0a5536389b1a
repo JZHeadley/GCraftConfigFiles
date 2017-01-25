@@ -1,0 +1,22 @@
+# 2.2.0
+# # If you need help with the configuration or have any questions related to GriefPrevention,
+# # join us at the IRC or drop by our forums and leave a post.
+# # IRC: #griefprevention @ irc.esper.net ( http://webchat.esper.net/?channel=griefprevention )
+# # Forums: https://forums.spongepowered.org/t/griefprevention-official-thread-1-8-9-1-10-2/1123/
+# 
+
+GriefPrevention {
+    accessors=[]
+    builders=[]
+    claim-type=BASIC
+    coowners=[]
+    cuboid=false
+    date-created="2017-01-12T00:41:58.538Z"
+    date-last-active="2017-01-24T10:46:31.491Z"
+    greater-boundary-corner="40;35;-51"
+    lesser-boundary-corner="32;30;-59"
+    managers=[]
+    owner-uuid="0d2e31e8-37fa-42ac-91dd-fd2ba4f688c3"
+    subdivisions {}
+    world-uuid="4b0eb5f6-47a6-4362-9510-6cde111e2ea7"
+}

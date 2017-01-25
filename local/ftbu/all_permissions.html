@@ -8,6 +8,12 @@
 <tr><td>block.wrench</td><td bgcolor="#72FF85">ALL</td><td>
 <p>Node for wrenching blocks</p>
 </td></tr>
+<tr><td>command.*</td><td bgcolor="#42A3FF">OP</td><td>
+<p>Permission for commands, if FTBU command overriding is enabled. If not, this node will be inactive</p>
+</td></tr>
+<tr><td>cyclic.player.modify</td><td bgcolor="#72FF85">ALL</td><td>
+<p>Check if the player modify blocks here</p>
+</td></tr>
 <tr><td>enderio.gui.gui_id_alloy_smelter</td><td bgcolor="#72FF85">ALL</td><td>
 <p>Permission to open the GUI_ID_ALLOY_SMELTER GUI of Ender IO</p>
 </td></tr>
@@ -34,9 +40,6 @@
 </td></tr>
 <tr><td>enderio.gui.gui_id_enchanter</td><td bgcolor="#72FF85">ALL</td><td>
 <p>Permission to open the GUI_ID_ENCHANTER GUI of Ender IO</p>
-</td></tr>
-<tr><td>enderio.gui.gui_id_enderface</td><td bgcolor="#72FF85">ALL</td><td>
-<p>Permission to open the GUI_ID_ENDERFACE GUI of Ender IO</p>
 </td></tr>
 <tr><td>enderio.gui.gui_id_external_connection</td><td bgcolor="#72FF85">ALL</td><td>
 <p>Permission to open the GUI_ID_EXTERNAL_CONNECTION GUI of Ender IO</p>
@@ -164,9 +167,6 @@
 <tr><td>enderio.wrench.blockenchanter</td><td bgcolor="#72FF85">ALL</td><td>
 <p>Permission to wrench-break the block blockEnchanter of Ender IO</p>
 </td></tr>
-<tr><td>enderio.wrench.blockenderio</td><td bgcolor="#72FF85">ALL</td><td>
-<p>Permission to wrench-break the block blockEnderIo of Ender IO</p>
-</td></tr>
 <tr><td>enderio.wrench.blockendermanskull</td><td bgcolor="#72FF85">ALL</td><td>
 <p>Permission to wrench-break the block blockEndermanSkull of Ender IO</p>
 </td></tr>
@@ -187,6 +187,9 @@
 </td></tr>
 <tr><td>enderio.wrench.blockinhibitorobelisk</td><td bgcolor="#72FF85">ALL</td><td>
 <p>Permission to wrench-break the block blockInhibitorObelisk of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.blockinventorychest</td><td bgcolor="#72FF85">ALL</td><td>
+<p>Permission to wrench-break the block blockInventoryChest of Ender IO</p>
 </td></tr>
 <tr><td>enderio.wrench.blockinventorypanel</td><td bgcolor="#72FF85">ALL</td><td>
 <p>Permission to wrench-break the block blockInventoryPanel of Ender IO</p>
@@ -310,9 +313,6 @@
 </td></tr>
 <tr><td>ftbu.claims.dimension_allowed.*</td><td bgcolor="#72FF85">ALL</td><td>
 <p>Permission for dimensions where claiming chunks is allowed</p>
-</td></tr>
-<tr><td>ftbu.claims.dimension_allowed.1</td><td bgcolor="#42A3FF">OP</td><td>
-<p></p>
 </td></tr>
 <tr><td>ftbu.claims.modify_other_chunks</td><td bgcolor="#42A3FF">OP</td><td>
 <p>Allow player to edit other player's chunks</p>

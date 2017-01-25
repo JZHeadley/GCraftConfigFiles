@@ -8,26 +8,11 @@
     "folder": "",
     "use_separate_thread": true
   },
-  "world": {
-    "temp": {
-      "max_loaded_chunks": 64,
-      "max_claimed_chunks": 1000
-    },
-    "chunk_loading": true,
-    "locked_in_dimensions": [
-      1,
-      0,
-      -1
-    ],
-    "locked_in_claimed_chunks": false,
-    "blocked_entities": [],
-    "chunk_claiming": true,
-    "safe_spawn": false,
-    "spawn_area_in_sp": false
-  },
   "commands": {
     "chunks": true,
     "trash_can": true,
+    "ranks": true,
+    "view_crash": true,
     "js": true,
     "warp": true,
     "tpl": true,
@@ -43,9 +28,7 @@
     "chat": {
       "substitutes": [
         {
-          "shrug": {
-            "text": "Â¯\\_(ãƒ„)_/Â¯"
-          }
+          "shrug": "Â¯\\_(ãƒ„)_/Â¯"
         }
       ],
       "substitute_prefix": "!",
@@ -55,20 +38,29 @@
     "server_info": {
       "difficulty": true,
       "mode": true
-    },
-    "ranks": {
-      "enabled": false
     }
   },
+  "world": {
+    "chunk_loading": true,
+    "blocked_entities": [],
+    "chunk_claiming": true,
+    "safe_spawn": false,
+    "spawn_area_in_sp": false
+  },
   "webapi": {
-    "port": 4509,
-    "output_map": false,
-    "enabled": false
+    "update_interval": 5,
+    "enabled": false,
+    "file_location": ""
   },
   "login": {
     "motd": [],
     "enable_motd": true,
-    "starting_items": [],
-    "enable_starting_items": true
+    "enable_starting_items": true,
+    "starting_items": []
+  },
+  "ranks": {
+    "override_chat": true,
+    "override_commands": true,
+    "enabled": false
   }
 }

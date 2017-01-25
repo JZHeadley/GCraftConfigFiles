@@ -1,0 +1,8 @@
+{
+  "player": {},
+  "op": {
+    "ftbu.chunkloader.max_chunks": 64,
+    "ftbu.homes.max": 100,
+    "ftbu.claims.max_chunks": 1000
+  }
+}

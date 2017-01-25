@@ -1,0 +1,15 @@
+# 2.2.0
+# # If you need help with the configuration or have any questions related to GriefPrevention,
+# # join us at the IRC or drop by our forums and leave a post.
+# # IRC: #griefprevention @ irc.esper.net ( http://webchat.esper.net/?channel=griefprevention )
+# # Forums: https://forums.spongepowered.org/t/griefprevention-official-thread-1-8-9-1-10-2/1123/
+# 
+
+GriefPrevention {
+    # How many claim blocks the player has earned in world via play time.
+    accrued-claim-blocks=40
+    # How many claim blocks the player has been gifted in world by admins, or purchased via economy integration.
+    bonus-claim-blocks=0
+    # Whether this player is currently in 3D cuboid mode.
+    cuboid-mode=false
+}

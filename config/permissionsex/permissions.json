@@ -40,32 +40,44 @@
                         "nucleus.home.list.base": 1,
                         "nucleus.mail.send.base": 1,
                         "nucleus.home.base": 1,
+                        "griefprevention.user": 1,
+                        "griefprevention.user.claim.create": 1,
                         "totaleconomy.command.pay": 1,
                         "nucleus.teleport.tptoggle.base": 1,
                         "nucleus.teleport.tpaccept.base": 1,
                         "nucleus.afk.base": 1,
                         "totaleconomy.command.balance": 1,
                         "nucleus.warp.list.base": 1,
+                        "griefprevention.user.claim.command.trust.permission": 1,
                         "nucleus.firstspawn.base": 1,
                         "nucleus.teleport.tpa.selectors": 1,
+                        "griefprevention.user.claim.command.trust.remove": 1,
+                        "griefprevention.user.claim.command.visualize": 1,
                         "nucleus.spawn.base": 1,
+                        "griefprevention.user.claim.command.trust.access": 1,
                         "nucleus.teleport.tpdeny.base": 1,
                         "nucleus.ignore.base": 1,
+                        "griefprevention.user.claim.command.trust.list": 1,
                         "nucleus.back.targets.death": 1,
                         "nucleus.back.base": 1,
                         "nucleus.back.targets.portal": 1,
+                        "griefprevention.user.claim.command.abandon": 1,
+                        "griefprevention.user.claim.command.trust.container": 1,
                         "nucleus.info.base": 1,
                         "nucleus.motd.login": 1,
                         "nucleus.time.base": 1,
                         "totaleconomy.command.balancetop": 1,
                         "nucleus.itembuy.base": 1,
                         "nucleus.itemsell.base": 1,
+                        "griefprevention.user.claim.command.trust.build": 1,
                         "nucleus.home.set.base": 1,
                         "nucleus.list.base": 1,
                         "nucleus.rules.base": 1,
+                        "griefprevention.user.claim.command.basic-mode": 1,
                         "nucleus.teleport.tpa.base": 1,
                         "nucleus.warp.base": 1,
-                        "nucleus.helpop.base": 1
+                        "nucleus.helpop.base": 1,
+                        "griefprevention.user.claim.command.abandon-all": 1
                     },
                     "options": {
                         "rank": "400",
@@ -424,6 +436,17 @@
                     ],
                     "options": {
                         "name": "QuyNguyen2013"
+                    }
+                }
+            ],
+            "0d2e31e8-37fa-42ac-91dd-fd2ba4f688c3": [
+                {
+                    "parents": [
+                        "group:settler",
+                        "group:survivor"
+                    ],
+                    "options": {
+                        "name": "HowlRyder"
                     }
                 }
             ]
